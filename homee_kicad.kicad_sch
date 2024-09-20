@@ -2942,6 +2942,10 @@
 		(uuid "ffb75b20-1771-4729-b06f-e1544dec2726")
 	)
 	(no_connect
+		(at 34.29 175.26)
+		(uuid "2b4d93cb-a803-4b2c-929a-552d2ebf8ade")
+	)
+	(no_connect
 		(at 201.93 100.33)
 		(uuid "2ea3a41b-fdf0-4577-864c-8ad41dcaa1d5")
 	)
@@ -3269,16 +3273,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 175.26) (xy 40.64 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "484ca788-4c17-45f8-b19c-759226e6f03c")
-	)
-	(wire
-		(pts
 			(xy 54.61 101.6) (xy 66.04 101.6)
 		)
 		(stroke
@@ -3346,6 +3340,16 @@
 			(type default)
 		)
 		(uuid "560b9886-668b-4417-93c9-7f605e29c2b2")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 127 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669a09a9-caae-4ed8-a4bf-274dcf037f73")
 	)
 	(wire
 		(pts
@@ -3506,6 +3510,16 @@
 			(type default)
 		)
 		(uuid "a1e61753-548c-4e28-9b5f-393582b52bb2")
+	)
+	(wire
+		(pts
+			(xy 54.61 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6401d02-ec4f-49ce-9cf7-20cf93b9cc6a")
 	)
 	(wire
 		(pts
@@ -4186,17 +4200,6 @@
 		)
 		(uuid "d339e305-4549-40f4-9575-51ff600fc698")
 	)
-	(label "TX"
-		(at 38.1 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9bdeb62-2929-4f59-9cbd-bd3b304616ea")
-	)
 	(label "GND"
 		(at 118.11 93.98 0)
 		(fields_autoplaced yes)
@@ -4539,7 +4542,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 38.1 167.64 0)
 			(effects
 				(font
@@ -4695,7 +4698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-AB_Molex_47590-0001"
+		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal"
 			(at 30.48 173.99 0)
 			(effects
 				(font
@@ -5574,6 +5577,76 @@
 			(project ""
 				(path "/b4bceb5a-cab3-4f49-a303-5f79905a3ea8"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b166173-4b6f-48ea-8cdf-600bb4fc6bd5")
+		(property "Reference" "R11"
+			(at 57.15 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 57.15 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm"
+			(at 52.832 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3899391-4b4b-4c7e-b1ce-05c4d00b82c3")
+		)
+		(pin "1"
+			(uuid "0c6f4826-7d8c-4756-98b1-59ae851ab672")
+		)
+		(instances
+			(project ""
+				(path "/b4bceb5a-cab3-4f49-a303-5f79905a3ea8"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6911,6 +6984,76 @@
 			(project "homee_kicad"
 				(path "/b4bceb5a-cab3-4f49-a303-5f79905a3ea8"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 54.61 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eef8b074-3d3e-4f81-b51c-6b869ebc1625")
+		(property "Reference" "D10"
+			(at 57.15 79.6924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 57.15 82.2324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 54.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 54.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf148ff0-cf7a-45d0-9b8d-fe30fd92687f")
+		)
+		(pin "2"
+			(uuid "ae3a8ea4-34d5-41f1-aa9a-c7d63d0d99bd")
+		)
+		(instances
+			(project ""
+				(path "/b4bceb5a-cab3-4f49-a303-5f79905a3ea8"
+					(reference "D10")
 					(unit 1)
 				)
 			)
