@@ -5704,7 +5704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PC-24-1000:XFMR_PC-24-1000"
+		(property "Footprint" "WE-PPTI_1006:WE-PPTI_1006_L10.2W6.73H4.19"
 			(at 91.44 168.91 0)
 			(effects
 				(font
