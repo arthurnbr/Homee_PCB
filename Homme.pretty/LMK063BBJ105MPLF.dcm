@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMK063BBJ105MPLF
+D Taiyo Yuden LMK063BBJ105MPLF 1F MLCC 10V dc +/-20% Tolerance SMD
+K
+F https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf
+$ENDCMP
+#
+#End Doc Library

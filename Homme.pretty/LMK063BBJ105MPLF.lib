@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LMK063BBJ105MPLF
+#/2151629/1495447/2.50/2/3/Capacitor
+DEF LMK063BBJ105MPLF C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "LMK063BBJ105MPLF" 350 150 50 H V L CNN
+F2 "CAPC0603X33N" 350 50 50 H I L CNN
+F3 "https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf" 350 -50 50 H I L CNN
+F4 "Taiyo Yuden LMK063BBJ105MPLF 1F MLCC 10V dc +/-20% Tolerance SMD" 350 -150 50 H I L CNN "Description"
+F5 "0.33" 350 -250 50 H I L CNN "Height"
+F6 "963-LMK063BBJ105MPLF" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/LMK063BBJ105MPLF?qs=GTwwGWkfii0pcKEfX0CyoQ%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TAIYO YUDEN" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "LMK063BBJ105MPLF" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

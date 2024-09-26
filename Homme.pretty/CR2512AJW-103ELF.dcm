@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CR2512AJW-103ELF
+D 10 +/-5% 1W Chip Resistor 2512 (6432 Metric) Automotive AEC-Q200 Thick Film
+K
+F https://www.bourns.com/docs/product-datasheets/crxxxxa.pdf
+$ENDCMP
+#
+#End Doc Library

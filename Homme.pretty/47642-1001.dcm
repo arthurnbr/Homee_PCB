@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 47642-1001
+D USB Connectors uUSB B Rec MidMt FlangelesTH1.52 0.70
+K
+F https://www.molex.com/pdm_docs/sd/476421001_sd.pdf
+$ENDCMP
+#
+#End Doc Library

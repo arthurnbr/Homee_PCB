@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GRM033R61A104KE15D
+D Ceramic Capacitors MLCC 0201 100nF 10V Murata 0201 GRM 100nF Ceramic Multilayer Capacitor, 10 V dc, +85C, X5R Dielectric, +/-10% SMD
+K
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61A104KE15-01A.pdf
+$ENDCMP
+#
+#End Doc Library
