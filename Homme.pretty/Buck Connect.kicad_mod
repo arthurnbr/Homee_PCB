@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -9 0)
+		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3c757d86-eb0f-418f-bf3d-228c940738ef")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Buck Connect"
-		(at 0 1 0)
+		(at 0 -4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at -2.34 -1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -2.34 -1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,7 +55,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at -2.34 -1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -69,8 +69,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -13.97 -13.97)
-		(end 19.05 2.54)
+		(start -16.31 -22.01)
+		(end 19.21 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -80,7 +80,7 @@
 		(uuid "795074de-25c3-40e0-828d-3ebac3180de3")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "4ae5a10a-6131-4147-b74a-bb8029edaa81")
@@ -92,7 +92,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 12.7 0)
+		(at 10.36 -1)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
@@ -100,7 +100,7 @@
 		(uuid "6bed8206-cb48-4977-a2f8-00ee5ba65513")
 	)
 	(pad "2" thru_hole circle
-		(at 17.78 0)
+		(at 15.44 -1)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
@@ -108,7 +108,7 @@
 		(uuid "d9472da2-a150-488a-ae4b-25668f99c89c")
 	)
 	(pad "3" thru_hole circle
-		(at -10.16 0)
+		(at -12.5 -1)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
@@ -116,7 +116,7 @@
 		(uuid "2f7f3729-f972-49a8-9439-c777f0f807d0")
 	)
 	(pad "4" thru_hole circle
-		(at -12.7 0)
+		(at -15.04 -1)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
