@@ -4329,7 +4329,7 @@
 	(footprint "Homme:ORWH-1T"
 		(layer "F.Cu")
 		(uuid "83832036-8e00-4654-8c3d-120e2deb9f2a")
-		(at 232.1885 129.4615 -90)
+		(at 224.1 141 -90)
 		(descr "ORWH-1T")
 		(tags "Relay or Contactor")
 		(property "Reference" "K1"
@@ -4634,7 +4634,7 @@
 	(footprint "Homme:Buck Connect"
 		(layer "F.Cu")
 		(uuid "83de8731-afbb-489d-881b-48e81f8500d5")
-		(at 233 129.56 -90)
+		(at 237.9 141.26 -90)
 		(property "Reference" "BC1"
 			(at 0 -6 -90)
 			(unlocked yes)
@@ -4999,7 +4999,7 @@
 	(footprint "Homme:MOLEX_476421001"
 		(layer "F.Cu")
 		(uuid "c8b3806c-1c7c-4037-a55a-48d191a2a3d2")
-		(at 218.05 96.735 180)
+		(at 218.5 97.015 180)
 		(property "Reference" "J2"
 			(at -0.565 -5.49 0)
 			(layer "F.SilkS")
@@ -6690,5 +6690,16 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 206.9 93.1)
+		(end 254.9 161)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "11ba0a33-99d5-4663-bbbf-320381375b5f")
 	)
 )

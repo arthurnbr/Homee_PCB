@@ -264,22 +264,22 @@
 				)
 			)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Screw_Terminal_01x04"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -304,7 +304,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -331,10 +331,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x02_1_1"
+			(symbol "Screw_Terminal_01x04_1_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -344,8 +344,31 @@
 					)
 				)
 				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
 					(center 0 -2.54)
 					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -380,6 +403,30 @@
 				)
 				(polyline
 					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
 					)
 					(stroke
@@ -402,6 +449,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 0 0)
 					(radius 0.635)
@@ -413,8 +472,19 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -432,7 +502,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -442,6 +512,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1573,227 +1679,6 @@
 				)
 			)
 		)
-		(symbol "ORWH-SH-105D1F_000:ORWH-SH-105D1F,000"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 29.21 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "ORWH-SH-105D1F,000"
-				(at 29.21 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "ORWH-1T"
-				(at 29.21 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FORWH_series_relay_data_sheet_E%7F0918%7Fpdf%7FEnglish%7FENG_DS_ORWH_series_relay_data_sheet_E_0918.pdf%7F1-1721150-0"
-				(at 29.21 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "TE CONNECTIVITY - ORWH-SH-105D1F,000 - RELAY, SPDT, 277VAC, 28VDC, 10A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "TE CONNECTIVITY - ORWH-SH-105D1F,000 - RELAY, SPDT, 277VAC, 28VDC, 10A"
-				(at 29.21 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" ""
-				(at 29.21 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "655-ORWH-SH105D1F000"
-				(at 29.21 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/ORWH-SH-105D1F000?qs=rXmh1mW8ce3c0xxgCCx3sA%3D%3D"
-				(at 29.21 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "TE Connectivity"
-				(at 29.21 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ORWH-SH-105D1F,000"
-				(at 29.21 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "ORWH-SH-105D1F,000_0_0"
-				(pin no_connect line
-					(at 0 0 0)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "COIL_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 0 180)
-					(length 5.08)
-					(name "COIL_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -2.54 180)
-					(length 5.08)
-					(name "NO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ORWH-SH-105D1F,000_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 27.94 2.54) (xy 27.94 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:LD1117S33TR_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1921,6 +1806,337 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Relay:SANYOU_SRD_Form_C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SANYOU_SRD_Form_C"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Pole Relay SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*SPDT*SANYOU*SRD*Series*Form*C*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SANYOU_SRD_Form_C_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SANYOU_SRD_Form_C_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SANYOU_SRD_Form_C_1_1"
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 3.175 3.175) (xy 2.54 2.54) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2801,16 +3017,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 82.55) (xy 100.33 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10eebcbf-afbe-4265-8065-2d68eee491aa")
-	)
-	(wire
-		(pts
 			(xy 137.16 106.68) (xy 143.51 106.68)
 		)
 		(stroke
@@ -2881,13 +3087,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 90.17) (xy 109.22 90.17)
+			(xy 132.08 132.08) (xy 124.46 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b61ddcf-fa77-4516-8e0c-ad98a0899a9e")
+		(uuid "3f09960f-a981-45dd-92ee-51fd374ae92c")
 	)
 	(wire
 		(pts
@@ -2931,17 +3137,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 82.55) (xy 143.51 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4519b852-957a-4cac-804f-fd7ad68df0d8")
-	)
-	(wire
-		(pts
-			(xy 132.08 135.89) (xy 132.08 137.16)
+			(xy 132.08 134.62) (xy 132.08 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2978,16 +3174,6 @@
 			(type default)
 		)
 		(uuid "51035104-f318-4914-b071-a06fe78dd577")
-	)
-	(wire
-		(pts
-			(xy 92.71 110.49) (xy 102.87 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57366573-c53d-48ea-9fe2-163eca09f0c2")
 	)
 	(wire
 		(pts
@@ -3101,16 +3287,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 92.71) (xy 142.24 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c8a1263-4d63-430b-99ac-5567493c3000")
-	)
-	(wire
-		(pts
 			(xy 102.87 101.6) (xy 110.49 101.6)
 		)
 		(stroke
@@ -3118,6 +3294,16 @@
 			(type default)
 		)
 		(uuid "7e5212a1-f0c7-4e73-a6c1-bb94c7433857")
+	)
+	(wire
+		(pts
+			(xy 123.19 97.79) (xy 118.11 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805c3ce3-59ad-4344-8c74-75b70b1b6497")
 	)
 	(wire
 		(pts
@@ -3151,16 +3337,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 87.63) (xy 109.22 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85f8fc4f-da96-4f71-ae2e-e870153f1ece")
-	)
-	(wire
-		(pts
 			(xy 196.85 128.27) (xy 200.66 128.27)
 		)
 		(stroke
@@ -3168,6 +3344,16 @@
 			(type default)
 		)
 		(uuid "8b4584c8-92a9-4eb5-b8be-3dc8f516650e")
+	)
+	(wire
+		(pts
+			(xy 120.65 82.55) (xy 125.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b39b53-bf9b-40a2-82b0-d14652211792")
 	)
 	(wire
 		(pts
@@ -3191,16 +3377,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 113.03) (xy 95.25 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e5cb0de-e0fc-433d-b1ea-e587f3481402")
-	)
-	(wire
-		(pts
 			(xy 200.66 133.35) (xy 200.66 128.27)
 		)
 		(stroke
@@ -3211,7 +3387,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 97.79) (xy 158.75 97.79)
+			(xy 135.89 97.79) (xy 158.75 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3271,6 +3447,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 99.06) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa71fb0-f65b-482a-adaf-e129a3dbd716")
+	)
+	(wire
+		(pts
 			(xy 193.04 72.39) (xy 193.04 66.04)
 		)
 		(stroke
@@ -3291,7 +3477,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 137.16) (xy 124.46 137.16)
+			(xy 124.46 134.62) (xy 132.08 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3321,13 +3507,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 142.24 90.17)
+			(xy 130.81 99.06) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd692d7e-ffc4-4f8b-b564-862ca962a407")
+		(uuid "cb6b139a-3639-481f-9a71-cc633c17b767")
+	)
+	(wire
+		(pts
+			(xy 129.54 137.16) (xy 124.46 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3e0a53-c6bf-49c9-a74b-cba2e4d437b8")
 	)
 	(wire
 		(pts
@@ -3368,6 +3564,16 @@
 			(type default)
 		)
 		(uuid "df4cbded-8f33-447c-8964-e7ee63cf6ba6")
+	)
+	(wire
+		(pts
+			(xy 135.89 82.55) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d49509-f545-489f-b14f-0989fe9756e7")
 	)
 	(wire
 		(pts
@@ -3604,6 +3810,17 @@
 		)
 		(uuid "0675a39d-3b21-4e61-9418-8448118bedb3")
 	)
+	(label "NO"
+		(at 124.46 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "166d3656-7d98-4f4f-a027-0688df643105")
+	)
 	(label "GPIO0"
 		(at 115.57 111.76 0)
 		(fields_autoplaced yes)
@@ -3626,8 +3843,8 @@
 		)
 		(uuid "1d0f25b8-458a-4e8c-985a-f6f5db560dea")
 	)
-	(label "L IN"
-		(at 102.87 87.63 0)
+	(label "NC"
+		(at 125.73 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3635,18 +3852,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "38ced01f-e0d8-4631-a796-f58bee3c084e")
-	)
-	(label "L_OUT"
-		(at 146.05 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f493268-79d0-43fa-9b2f-fe979349cfc7")
+		(uuid "34f7da56-a1a0-4a81-b3bf-4fd902fcab6e")
 	)
 	(label "N IN"
 		(at 127 139.7 0)
@@ -3681,8 +3887,8 @@
 		)
 		(uuid "5b2fae15-e44a-41b4-b484-000d4e3f411f")
 	)
-	(label "L_OUT"
-		(at 95.25 110.49 0)
+	(label "NO"
+		(at 118.11 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3690,7 +3896,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6c2c29dd-8e1e-49ee-8825-21a5c634d9e7")
+		(uuid "69a171fc-89ca-4759-bce5-80213d8decab")
 	)
 	(label "RX"
 		(at 102.87 148.59 0)
@@ -3724,6 +3930,28 @@
 			(justify left bottom)
 		)
 		(uuid "7d8ea589-b07c-4d7a-8aa8-fb0bd41b2b3f")
+	)
+	(label "NC"
+		(at 130.81 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d189905-8d2d-48c7-96ae-493ef49b0ed6")
+	)
+	(label "L IN"
+		(at 120.65 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9decc487-2e57-498e-8741-8049d23895b8")
 	)
 	(label "CH_PD"
 		(at 85.09 58.42 0)
@@ -3759,7 +3987,7 @@
 		(uuid "c48965b4-2497-46f4-aa75-d63121aebd5e")
 	)
 	(label "L IN"
-		(at 127 137.16 0)
+		(at 127 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3768,17 +3996,6 @@
 			(justify left bottom)
 		)
 		(uuid "c53ac91f-a410-48d6-ad5f-aa897ff0f65f")
-	)
-	(label "N IN"
-		(at 95.25 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3a1ac3c-20fc-4c1c-a205-21babad8cb6d")
 	)
 	(label "CH_PD"
 		(at 201.93 60.96 180)
@@ -3922,91 +4139,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 119.38 139.7 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "151f4e52-5b8f-4be4-9008-88685b083f13")
-		(property "Reference" "J1"
-			(at 122.174 129.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 125.476 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 119.38 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 119.38 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C8269"
-			(at 119.38 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "https://jlcpcb.com/partdetail/Ningbo_KangnexElec-WJ128V_5_02P/C8269"
-			(at 119.38 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03d5b2f0-abf9-40a2-b788-1af4237340cc")
-		)
-		(pin "2"
-			(uuid "8b6f7fd8-cb31-4d1f-9d7b-950b2fc0097c")
-		)
-		(instances
-			(project ""
-				(path "/b4bceb5a-cab3-4f49-a303-5f79905a3ea8"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Isolator:PC817")
 		(at 129.54 109.22 0)
 		(unit 1)
@@ -4014,10 +4146,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "192c71a7-4b3b-4b18-8a52-0f59ff6bc3e7")
 		(property "Reference" "U4"
-			(at 129.54 100.33 0)
+			(at 129.794 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,91 +4608,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 87.63 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37464111-60c1-4227-b596-f7894b249012")
-		(property "Reference" "J3"
-			(at 87.63 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 90.932 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 87.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 87.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "https://jlcpcb.com/partdetail/Ningbo_KangnexElec-WJ128V_5_02P/C8269"
-			(at 87.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C8269"
-			(at 87.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b6401a7-93f9-4e7d-b07b-af1076e6a0c9")
-		)
-		(pin "2"
-			(uuid "21a9fe24-2db7-4247-acb8-9050da81b93c")
-		)
-		(instances
-			(project "homee_kicad"
-				(path "/b4bceb5a-cab3-4f49-a303-5f79905a3ea8"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 110.49 105.41 0)
 		(unit 1)
@@ -4731,6 +4777,80 @@
 			(project "homee_kicad"
 				(path "/b4bceb5a-cab3-4f49-a303-5f79905a3ea8"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 119.38 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4093fa17-739b-4824-9bdd-ba67354714aa")
+		(property "Reference" "J1"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 119.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "485ea015-0a08-4871-95e1-9c46958fda0d")
+		)
+		(pin "4"
+			(uuid "14be29e7-102c-493f-8d26-d97528e107b7")
+		)
+		(pin "2"
+			(uuid "4926eafb-9ed3-484b-a9a2-b223f57f7cb9")
+		)
+		(pin "3"
+			(uuid "28c4e284-6957-4743-85f8-1f4cc9e3de73")
+		)
+		(instances
+			(project ""
+				(path "/b4bceb5a-cab3-4f49-a303-5f79905a3ea8"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5297,6 +5417,85 @@
 			(project "homee_kicad"
 				(path "/b4bceb5a-cab3-4f49-a303-5f79905a3ea8"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:SANYOU_SRD_Form_C")
+		(at 130.81 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69ceb137-1823-4133-b4cb-ec9409ee82e8")
+		(property "Reference" "K2"
+			(at 143.51 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SANYOU_SRD_Form_C"
+			(at 143.256 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+			(at 130.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
+			(at 130.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25b56759-d057-4134-a64f-c93a8120b931")
+		)
+		(pin "4"
+			(uuid "1cac043a-90a9-4587-b6bd-9f6cf92854f0")
+		)
+		(pin "5"
+			(uuid "4d75f1bf-294e-4de7-a826-aad24d091e11")
+		)
+		(pin "3"
+			(uuid "7845ba16-8366-4a16-a52f-1cb4cac9e93c")
+		)
+		(pin "2"
+			(uuid "75c91a3d-0751-4ea8-8ed3-04de5a396650")
+		)
+		(instances
+			(project ""
+				(path "/b4bceb5a-cab3-4f49-a303-5f79905a3ea8"
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -5958,146 +6157,6 @@
 			(project "homee_kicad"
 				(path "/b4bceb5a-cab3-4f49-a303-5f79905a3ea8"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ORWH-SH-105D1F_000:ORWH-SH-105D1F,000")
-		(at 109.22 92.71 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9eb874dd-24b4-423a-bd23-4d8cbc566430")
-		(property "Reference" "K1"
-			(at 125.73 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ORWH-SH-105D1F,000"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Homme:ORWH-1T"
-			(at 138.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FORWH_series_relay_data_sheet_E%7F0918%7Fpdf%7FEnglish%7FENG_DS_ORWH_series_relay_data_sheet_E_0918.pdf%7F1-1721150-0"
-			(at 138.43 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "TE CONNECTIVITY - ORWH-SH-105D1F,000 - RELAY, SPDT, 277VAC, 28VDC, 10A"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "TE CONNECTIVITY - ORWH-SH-105D1F,000 - RELAY, SPDT, 277VAC, 28VDC, 10A"
-			(at 138.43 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 138.43 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "655-ORWH-SH105D1F000"
-			(at 138.43 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/ORWH-SH-105D1F000?qs=rXmh1mW8ce3c0xxgCCx3sA%3D%3D"
-			(at 138.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 138.43 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ORWH-SH-105D1F,000"
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "5b9196aa-45c0-4866-96e1-aa37c301d807")
-		)
-		(pin "2"
-			(uuid "8f1737d6-702b-4ff8-b5ee-82303901de95")
-		)
-		(pin "4"
-			(uuid "3b0857da-998f-4093-8f07-b0300263b7d0")
-		)
-		(pin "3"
-			(uuid "f0060877-2ff1-41ee-a318-f91f790087e3")
-		)
-		(pin "1"
-			(uuid "f70e4085-3716-410b-ac2f-9d89d16370f9")
-		)
-		(instances
-			(project ""
-				(path "/b4bceb5a-cab3-4f49-a303-5f79905a3ea8"
-					(reference "K1")
 					(unit 1)
 				)
 			)
