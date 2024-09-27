@@ -5762,7 +5762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connect:Buck Connect"
+		(property "Footprint" "Homme:Buck Connect"
 			(at 140.97 130.81 0)
 			(effects
 				(font
