@@ -1,4 +1,4 @@
-24097982891850997
+24099713757168218
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -41461,6 +41461,13 @@ Surface mounted socket strip SMD 2x40 2.00mm double row
 80
 80
 Connector_PinSocket_2.54mm
+ESP
+surface-mounted straight socket strip, 2x04, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Surface mounted socket strip SMD 2x04 2.54mm double row
+0
+8
+8
+Connector_PinSocket_2.54mm
 PinSocket_1x01_P2.54mm_Horizontal
 Through hole angled socket strip, 1x01, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated
 Through hole angled socket strip THT 1x01 2.54mm single row
@@ -42640,13 +42647,6 @@ Connector_PinSocket_2.54mm
 PinSocket_2x04_P2.54mm_Vertical
 Through hole straight socket strip, 2x04, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
 Through hole socket strip THT 2x04 2.54mm double row
-0
-8
-8
-Connector_PinSocket_2.54mm
-PinSocket_2x04_P2.54mm_Vertical_SMD
-surface-mounted straight socket strip, 2x04, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
-Surface mounted socket strip SMD 2x04 2.54mm double row
 0
 8
 8
@@ -58911,6 +58911,13 @@ Micro SD Wuerth Wurth Würth
 0
 12
 9
+Homme
+relay_1-1721150-0_TEC
+
+ORWH-SH-105D1F_000 
+0
+5
+5
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height

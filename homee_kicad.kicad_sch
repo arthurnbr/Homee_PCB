@@ -4342,7 +4342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Homme:RESC6332X70N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 187.96 62.738 90)
 			(effects
 				(font
@@ -4625,7 +4625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Homme:ERJUP6"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 108.712 105.41 90)
 			(effects
 				(font
@@ -4798,7 +4798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-4P_1x04_P2.54mm_Horizontal"
 			(at 119.38 137.16 0)
 			(effects
 				(font
@@ -5245,7 +5245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Homme:RESC6332X70N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 187.96 67.818 90)
 			(effects
 				(font
@@ -5519,7 +5519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Homme:ERJUP6"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 189.992 93.98 90)
 			(effects
 				(font
@@ -5606,7 +5606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Homme:RESC6332X70N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 187.96 57.658 90)
 			(effects
 				(font
@@ -5695,7 +5695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Homme:RESC6332X70N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 146.812 106.68 90)
 			(effects
 				(font
@@ -6181,7 +6181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Homme:RESC6332X70N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 168.402 86.36 90)
 			(effects
 				(font
